@@ -19,7 +19,7 @@ export const Header: React.FC<Props> = ({ siteTitle }: Props) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, textAlign: 'center' }}>
         <Link
           style={{
             color: `white`,

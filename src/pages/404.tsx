@@ -6,8 +6,9 @@ import { Seo } from '../components/Seo';
 const NotFoundPage: React.FC<{}> = () => (
   <Layout>
     <Seo title="404: Not found" />
-    <h1>{`NOT FOUND`}</h1>
-    <p>{`You just hit a route that doesn&#39;t exist... the sadness.`}</p>
+    <h1 style={{ fontSize: '75px', textAlign: 'center', marginTop: 50 }}>
+      {`ERROR 404: NOT FOUND`}
+    </h1>
   </Layout>
 );
 
